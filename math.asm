@@ -92,7 +92,7 @@ printTransferData:
     
 printBackSlashN:
     mov rax, 1 ;sys_write
-    mov rdi, 1 ;standart input
+    mov rdi, 1 ;standart output
     mov rsi, backslashn
     mov rdx, 1 ;1 byte entered
     syscall
